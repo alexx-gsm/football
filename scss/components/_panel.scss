@@ -1,0 +1,11 @@
+.panel {
+    $_: '.panel';
+    height: 80px;
+    background: $panel_bg_color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+@import 'panel-responsive';

@@ -1,0 +1,21 @@
+.icon {
+    $_: '.icon';
+    margin-right: 7px;
+    &--prize {
+        width: 25px;
+        height: 25px;
+    }
+    &--prize-2 {
+        width: 30px;
+        height: 30px;
+    }
+    &--star {
+        margin-left: 3px;
+        margin-right: 13px;
+        padding-bottom: 4px;
+    }
+    &--ball-2x {
+        width: 40px;
+        height: 40px;
+    }
+}
