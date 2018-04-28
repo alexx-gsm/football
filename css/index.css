@@ -497,6 +497,30 @@ body {
   transition: top 0.3s ease-out;
 }
 
+.dropdown--online, .dropdown--rules {
+  display: none;
+}
+
+.dropdown--static {
+  display: none;
+}
+
+@media (max-width: 1350px) {
+  .dropdown--online, .dropdown--rules {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (max-width: 860px) {
+  .dropdown--static {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 @media (max-width: 600px) {
   .dropdown .m-list--static {
     -webkit-box-orient: vertical;

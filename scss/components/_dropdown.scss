@@ -28,7 +28,25 @@
         bottom: 0;
         transition: top 0.3s ease-out;
     }
+    &--online,
+    &--rules {
+        display: none;
+    }
+    &--static {
+        display: none;
+    }
 
+    @media (max-width: 1350px) {
+        &--online,
+        &--rules {
+            display: flex;
+        }
+    }
+    @media (max-width: 860px) {
+        &--static {
+            display: flex;
+        }
+    }
     @media (max-width: 600px) {
         .m-list--static {
             flex-direction: column;
