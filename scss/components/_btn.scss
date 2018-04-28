@@ -24,6 +24,9 @@
     &--yellow {
         background: $yellow;
     }
+    &--indigo {
+        background: $indigo;
+    }
     &--rounded {
         height: 34px;
         border-radius: 17px;
@@ -63,6 +66,33 @@
     &--menu {
         display: none;
         background: transparent;
+    }
+    &--hit {
+        font-size: 17px;
+        font-weight: 800;
+        font-style: normal;
+        text-transform: uppercase;
+        padding: 0 23px;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: -0.3px;
+        text-align: center;
+        color: #000000;
+    }
+    &--select {
+        font-size: 13px;
+        font-weight: 800;
+        font-style: normal;
+        text-transform: uppercase;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+        padding: 0 23px;
+        height: 23px;
+        border-radius: 5px;
+        text-align: center;
     }
 }
 
