@@ -7,6 +7,10 @@ body {
     font-style: normal;
     overflow: hidden;
 }
+.header {
+    position: relative;
+    z-index: 15;
+}
 .page {
     $_: '.page';
     position: relative;

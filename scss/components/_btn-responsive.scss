@@ -3,7 +3,7 @@
     @media (max-width: 1350px) {
         &--menu {
             display: block;
-            width: 154px;
+            margin-left: 106px;
         }
         &--online,
         &--rules {
@@ -13,7 +13,7 @@
     
     @media (max-width: 860px) {
         &--menu {
-            width: auto;
+            margin-left: 0;
         }
         &--close {
             top: 15px;
