@@ -1,7 +1,8 @@
 .panel {
     $_: '.panel';
     height: 80px;
-    background: $panel_bg_color;
+    max-width: $content-width-max;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;

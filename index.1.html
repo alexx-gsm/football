@@ -112,39 +112,77 @@
             <img src="images/bg.jpg" alt="">
         </div>
         <div class="page__wrap">
-            <div id="selection" class="selection right h-100">
-                <div class="selection__bg">
-                    <div class="separator">
-                        <div class="separator__line"></div>
-                        <div class="separator__label">VS</div>
-                    </div>
+            <div class="board">
+                <div class="board__img">
+                    <svg class="board__svg" width="445px" height="249px">
+                        <use xlink:href="#svg_tablo"></use>
+                    </svg>
                 </div>
-                <div class="selection__wrap">
-                    <div class="selection__left">
-                        <div class="selection__title">
-                            <h2>Выбери свою сторону!</h2>
-                        </div>
-                        <div class="selection__subtitle">
-                            <h3>Прими участие в игре, и получи ценные призы!</h3>
-                        </div>
-                        <div class="selection__button">
-                            <label class="label label--gk label--select">Вы выбрали игру за вратаря.<br>Вы можете изменить свою роль:</label>
-                            <label class="label label--play">Нападающий</label>
-                            <button class="btn btn--select" id="forward-select">Нападающий</button>
-                            <button class="btn btn--play" id="buttonForward">Играть</button>
-                        </div>
+                <div class="board__wrap">
+                    <div class="board__title">
+                        Серия пенальти
                     </div>
-                    <div class="selection__right">
-                        <div class="selection__button">
-                            <label class="label label--select">Вы выбрали игру за нападающего.<br>Вы можете изменить свою роль:</label>
-                            <label class="label label--play">Вратарь</label>
-                            <button class="btn btn--select" id="goalkeeper-select">Вратарь</button>
-                            <button class="btn btn--play" id="goalkeeperPlay">Играть</button>
-                        </div>
+                    <div class="board__list">
+                        <ul class="list list--board">
+                            <li class="list__item">
+                                <div class="list__item-title">Мячи</div>
+                                <div class="list__item-desc">
+                                    <img class="icon icon--ball-2x" src="images/ball-2x.png" alt="">
+                                    <div class="list__item-desc">x<b>100</b></div>
+                                </div>
+                            </li>
+                            <li class="list__item">
+                                <div class="list__item-title">Попытки</div>
+                                <div class="list__item-desc">
+                                    <ul class="list list--shot">
+                                        <li class="list__item">
+                                            <span class="ball ball--green"></span>
+                                        </li>
+                                        <li class="list__item">
+                                            <span class="ball ball--green"></span>
+                                        </li>
+                                        <li class="list__item">
+                                            <span class="ball ball--red"></span>
+                                        </li>
+                                        <li class="list__item">
+                                            <span class="ball"></span>
+                                        </li>
+                                        <li class="list__item">
+                                            <span class="ball"></span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="list__item">
+                                <div class="list__item-title">Кубки</div>
+                                <div class="list__item-desc">
+                                    <img class="icon icon--prize-2" src="images/prize-2.png" alt="">
+                                    <div class="list__item-desc">x<b>100</b></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="board__footer">
+                        <ul class="list list--links">
+                            <li class="list__item">
+                                <a href="#" class="list__link" title="Главная страница">Главная страница</a>
+                            </li>
+                            <li class="list__item">
+                                <a href="#" class="list__link" title="Личный кабинет">Личный кабинет</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
+            <!-- BUTTON start -->
+            <button class="btn btn--rounded btn--yellow btn--hit" title="Удар">Удар</button>
+            <!-- BUTTON end -->
+
+            <!-- BUTTON start -->
+            <button class="btn btn--indigo btn--select" title="Удар">Удар</button>
+            <!-- BUTTON end -->
         </div>
+        
     </div>
 
     <!-- MOBILE MENU start -->

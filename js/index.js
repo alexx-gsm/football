@@ -8,4 +8,26 @@ window.addEventListener('load' , function() {
             mobileMenu.classList.toggle('open');
         })
     }
+
+    const btnForwardSelect = document.querySelector('#forward-select');
+    const btnGoalkeeperSelect = document.querySelector('#goalkeeper-select');
+    const selection = document.querySelector('.selection');
+
+    if (btnForwardSelect) {
+        btnForwardSelect.addEventListener('click', e => {
+            e.preventDefault();
+            selection.classList.remove('right');
+            selection.classList.add('left');
+
+        })
+    }
+
+    if (btnGoalkeeperSelect) {
+        btnGoalkeeperSelect.addEventListener('click', e => {
+            e.preventDefault();
+            selection.classList.remove('left');
+            selection.classList.add('right');
+
+        })
+    }
 })
